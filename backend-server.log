@@ -1,0 +1,147 @@
+Loading CropGuard AI model...
+Model loaded successfully!
+Number of classes: 13
+Checking Cotton AI model...
+Loading CropGuard AI Cotton model...
+Cotton model loaded successfully.
+Cotton classes: ['Bacterial Blight', 'Curl Virus', 'Healthy Leaf', 'Herbicide Growth Damage', 'Leaf Hopper Jassids', 'Leaf Redding', 'Leaf Variegation']
+Cotton model available: True
+Checking Maize AI model...
+Loading CropGuard AI Maize model...
+Maize model loaded successfully.
+Maize classes: ['Common Rust', 'Gray Leaf Spot', 'Healthy', 'Northern Leaf Blight']
+Maize model available: True
+INFO:     127.0.0.1:52261 - "GET / HTTP/1.1" 200 OK
+Maize predict: Healthy 99.99% raw=[0.0, 0.0, 1.0, 0.0]
+INFO:     127.0.0.1:54072 - "POST /predict-maize HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58037 - "GET / HTTP/1.1" 200 OK
+Loading CropGuard AI model...
+Model loaded successfully!
+Number of classes: 13
+Checking Cotton AI model...
+Loading CropGuard AI Cotton model...
+Cotton model loaded successfully.
+Cotton classes: ['Bacterial Blight', 'Curl Virus', 'Healthy Leaf', 'Herbicide Growth Damage', 'Leaf Hopper Jassids', 'Leaf Redding', 'Leaf Variegation']
+Cotton model available: True
+Checking Maize AI model...
+Loading CropGuard AI Maize model...
+Maize model loaded successfully.
+Maize classes: ['Common Rust', 'Gray Leaf Spot', 'Healthy', 'Northern Leaf Blight']
+Maize model available: True
+INFO:     127.0.0.1:58934 - "GET / HTTP/1.1" 200 OK
+Maize predict: Common Rust 99.82% raw=[0.9980000257492065, 0.0010000000474974513, 0.0, 0.0010000000474974513]
+INFO:     127.0.0.1:58938 - "POST /predict-maize HTTP/1.1" 200 OK
+Maize predict: Northern Leaf Blight 68.95% raw=[0.014999999664723873, 0.29100000858306885, 0.004000000189989805, 0.6899999976158142]
+INFO:     127.0.0.1:58346 - "POST /predict-maize HTTP/1.1" 200 OK
+Maize predict: Northern Leaf Blight 94.61% raw=[0.006000000052154064, 0.04699999839067459, 0.0, 0.9459999799728394]
+INFO:     127.0.0.1:52570 - "POST /predict-maize HTTP/1.1" 200 OK
+Maize predict: Common Rust 81.46% raw=[0.8149999976158142, 0.04100000113248825, 0.0010000000474974513, 0.14399999380111694]
+INFO:     127.0.0.1:60308 - "POST /predict-maize HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59076 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64786 - "POST /predict HTTP/1.1" 200 OK
+Loading CropGuard AI model...
+Model loaded successfully!
+Number of classes: 13
+Checking Cotton AI model...
+Loading CropGuard AI Cotton model...
+Cotton model loaded successfully.
+Cotton classes: ['Bacterial Blight', 'Curl Virus', 'Healthy Leaf', 'Herbicide Growth Damage', 'Leaf Hopper Jassids', 'Leaf Redding', 'Leaf Variegation']
+Cotton model available: True
+Checking Maize AI model...
+Loading CropGuard AI Maize model...
+Maize model loaded successfully.
+Maize classes: ['Common Rust', 'Gray Leaf Spot', 'Healthy', 'Northern Leaf Blight']
+Maize model available: True
+Checking Onion AI model...
+Loading CropGuard AI Onion model...
+Onion model loaded successfully.
+Onion classes: ['Healthy', 'Iris Yellow Virus', 'Purple Blotch', 'Stemphylium Leaf Blight']
+Onion model available: True
+Checking Banana AI model...
+Loading CropGuard AI Banana model...
+Banana model not found at: C:\Users\Smart\crop-disease-detection\backend\banana_model\model\banana_model.keras
+Train it first: backend\venv311\Scripts\python.exe backend/train_banana_final.py
+INFO:     127.0.0.1:51170 - "GET / HTTP/1.1" 200 OK
+Maize predict: Gray Leaf Spot 48.43% raw=[0.05700000002980232, 0.48399999737739563, 0.0010000000474974513, 0.4580000042915344]
+INFO:     127.0.0.1:60130 - "POST /predict-maize HTTP/1.1" 200 OK
+Loading CropGuard AI model...
+Model loaded successfully!
+Number of classes: 13
+Checking Cotton AI model...
+Loading CropGuard AI Cotton model...
+Cotton model loaded successfully.
+Cotton classes: ['Bacterial Blight', 'Curl Virus', 'Healthy Leaf', 'Herbicide Growth Damage', 'Leaf Hopper Jassids', 'Leaf Redding', 'Leaf Variegation']
+Cotton model available: True
+Checking Maize AI model...
+Loading CropGuard AI Maize model...
+Maize model loaded successfully.
+Maize classes: ['Common Rust', 'Gray Leaf Spot', 'Healthy', 'Northern Leaf Blight']
+Maize model available: True
+Checking Onion AI model...
+Loading CropGuard AI Onion model...
+Onion model loaded successfully.
+Onion classes: ['Healthy', 'Iris Yellow Virus', 'Purple Blotch', 'Stemphylium Leaf Blight']
+Onion model available: True
+Checking Banana AI model...
+Loading CropGuard AI Banana model...
+Banana model loaded successfully.
+Banana classes: ['Banana_Black_Sigatoka', 'Banana_Cordana_Leaf_Spot', 'Banana_Healthy', 'Banana_Pestalotiopsis']
+Banana model available: True
+INFO:     127.0.0.1:51551 - "GET / HTTP/1.1" 200 OK
+Cotton predict: Leaf Variegation 82.89% raw=[0.03500000014901161, 0.008999999612569809, 0.0010000000474974513, 0.019999999552965164, 0.008999999612569809, 0.09600000083446503, 0.8289999961853027]
+INFO:     127.0.0.1:59490 - "POST /predict-cotton HTTP/1.1" 200 OK
+Cotton predict: Curl Virus 33.24% raw=[0.03200000151991844, 0.3319999873638153, 0.11100000143051147, 0.04899999871850014, 0.08900000154972076, 0.2290000021457672, 0.15800000727176666]
+INFO:     127.0.0.1:51257 - "POST /predict-cotton HTTP/1.1" 200 OK
+Cotton predict: Leaf Variegation 82.89% raw=[0.03500000014901161, 0.008999999612569809, 0.0010000000474974513, 0.019999999552965164, 0.008999999612569809, 0.09600000083446503, 0.8289999961853027]
+INFO:     127.0.0.1:61060 - "POST /predict-cotton HTTP/1.1" 200 OK
+Maize predict: Northern Leaf Blight 90.32% raw=[0.0020000000949949026, 0.08799999952316284, 0.007000000216066837, 0.902999997138977]
+INFO:     127.0.0.1:52791 - "POST /predict-maize HTTP/1.1" 200 OK
+Maize predict: Gray Leaf Spot 48.43% raw=[0.05700000002980232, 0.48399999737739563, 0.0010000000474974513, 0.4580000042915344]
+INFO:     127.0.0.1:49673 - "POST /predict-maize HTTP/1.1" 200 OK
+Loading CropGuard AI model...
+Model loaded successfully!
+Number of classes: 13
+Checking Cotton AI model...
+Loading CropGuard AI Cotton model...
+Cotton model loaded successfully.
+Cotton classes: ['Bacterial Blight', 'Curl Virus', 'Healthy Leaf', 'Herbicide Growth Damage', 'Leaf Hopper Jassids', 'Leaf Redding', 'Leaf Variegation']
+Cotton model available: True
+Checking Maize AI model...
+Loading CropGuard AI Maize model...
+Maize model loaded successfully.
+Maize classes: ['Common Rust', 'Gray Leaf Spot', 'Healthy', 'Northern Leaf Blight']
+Maize model available: True
+Checking Onion AI model...
+Loading CropGuard AI Onion model...
+Onion model loaded successfully.
+Onion classes: ['Healthy', 'Iris Yellow Virus', 'Purple Blotch', 'Stemphylium Leaf Blight']
+Onion model available: True
+Checking Banana AI model...
+Loading CropGuard AI Banana model...
+Banana model loaded successfully.
+Banana classes: ['Banana_Black_Sigatoka', 'Banana_Cordana_Leaf_Spot', 'Banana_Healthy', 'Banana_Pestalotiopsis']
+Banana model available: True
+INFO:     127.0.0.1:60169 - "GET / HTTP/1.1" 200 OK
+Cotton predict: Curl Virus 54.90% raw=[0.02500000037252903, 0.5490000247955322, 0.12600000202655792, 0.05299999937415123, 0.11999999731779099, 0.05400000140070915, 0.07199999690055847]
+INFO:     127.0.0.1:64521 - "POST /predict-cotton HTTP/1.1" 200 OK
+Maize predict: Northern Leaf Blight 90.32% raw=[0.0020000000949949026, 0.08799999952316284, 0.007000000216066837, 0.902999997138977]
+INFO:     127.0.0.1:51787 - "POST /predict-maize HTTP/1.1" 200 OK
+Maize predict: Common Rust 84.89% raw=[0.8489999771118164, 0.05299999937415123, 0.028999999165534973, 0.0689999982714653]
+INFO:     127.0.0.1:50350 - "POST /predict-maize HTTP/1.1" 200 OK
+Maize predict: Healthy 54.50% raw=[0.02800000086426735, 0.09099999815225601, 0.5450000166893005, 0.335999995470047]
+INFO:     127.0.0.1:53086 - "POST /predict-maize HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64221 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59275 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61474 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54379 - "POST /predict HTTP/1.1" 200 OK
+Cotton predict: Curl Virus 40.72% raw=[0.1420000046491623, 0.40700000524520874, 0.0989999994635582, 0.08500000089406967, 0.17900000512599945, 0.03400000184774399, 0.05400000140070915]
+INFO:     127.0.0.1:62598 - "POST /predict-cotton HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51605 - "POST /predict HTTP/1.1" 200 OK
+Cotton predict: Leaf Variegation 34.94% raw=[0.009999999776482582, 0.024000000208616257, 0.02199999988079071, 0.003000000026077032, 0.2939999997615814, 0.29899999499320984, 0.3490000069141388]
+INFO:     127.0.0.1:59178 - "POST /predict-cotton HTTP/1.1" 200 OK
+Cotton predict: Bacterial Blight 43.61% raw=[0.4359999895095825, 0.10400000214576721, 0.050999999046325684, 0.03099999949336052, 0.11599999666213989, 0.11100000143051147, 0.15000000596046448]
+INFO:     127.0.0.1:57453 - "POST /predict-cotton HTTP/1.1" 200 OK
+Cotton predict: Curl Virus 36.65% raw=[0.03099999949336052, 0.367000013589859, 0.0689999982714653, 0.014000000432133675, 0.3400000035762787, 0.12300000339746475, 0.05700000002980232]
+INFO:     127.0.0.1:58132 - "POST /predict-cotton HTTP/1.1" 200 OK
+Cotton predict: Leaf Hopper Jassids 27.09% raw=[0.07400000095367432, 0.18299999833106995, 0.24500000476837158, 0.10400000214576721, 0.2709999978542328, 0.08100000023841858, 0.041999999433755875]
+INFO:     127.0.0.1:59183 - "POST /predict-cotton HTTP/1.1" 200 OK

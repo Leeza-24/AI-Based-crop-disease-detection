@@ -1,0 +1,5 @@
+/* Netlify SPA fallback for react-router-dom */
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

@@ -1,0 +1,12 @@
+node_modules/
+backend/venv/
+backend/venv311/
+__pycache__/
+*.pyc
+.env
+
+dist/
+
+*.log
+backend-server*.log
+vite-dev*.log
